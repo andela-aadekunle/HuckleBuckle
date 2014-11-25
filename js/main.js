@@ -31,7 +31,7 @@ var numValidity= function(){
 		else{
 			hucklebuckle();
 		}
-}
+};
 
 
 
@@ -39,7 +39,7 @@ var numValidity= function(){
 
 var hucklebuckle = function(){
 
-		enternumber = parseInt(enternumber)
+		enternumber = parseInt(enternumber);
 
 		if(enternumber == randomNum){
 			$("#statement p").html("You are Right!! Are You Cheating?");
@@ -51,8 +51,8 @@ var hucklebuckle = function(){
 			$("#statement p").html("You're Hotter");
 		}
 
-		initNum = enternumber
-}
+		initNum = enternumber;
+};
 console.log('randomNum: ' + randomNum);
 
 $('#submit').click(function(event) {
