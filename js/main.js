@@ -2,7 +2,8 @@
 var enternumber;
 var initNum=0;
 
-$('#restart').click(function(){
+$('#restart').click(function(event){
+	event.preventDefault();
 	location.reload();
 });	
 
