@@ -2,7 +2,7 @@
 var enternumber;
 var initNum=0;
 
-$('#restart').click(function(event){
+$('#restart').click(function(){
 	location.reload();
 });	
 
@@ -56,6 +56,6 @@ var hucklebuckle = function(){
 console.log('randomNum: ' + randomNum);
 
 $('#submit').click(function(event) {
-	event.preventDefault;
+	event.preventDefault();
 	numValidity();
 });
